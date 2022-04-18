@@ -7,10 +7,16 @@ function myFunction() {
 
         var botoncito = document.getElementById("botoncito");
         botoncito.style.marginLeft = "48%";
+        botoncito.style.fontWeight = "bold";
         
     } else {
         x.style.display = "none";
         var ocultarVideo = document.getElementById("ocultaVideo");
-        ocultarVideo.innerHTML = "Ver video.. InstaBot con Python!!"
+        ocultarVideo.innerHTML = "Ver de Nuevo!!"
+        var botoncito = document.getElementById("botoncito");
+        botoncito.style.marginLeft = "44%";
+        botoncito.style.fontWeight = "bold";
+
+
     }
 }
